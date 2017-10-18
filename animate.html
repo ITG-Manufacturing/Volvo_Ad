@@ -7,6 +7,18 @@
     <title>Car Ad </title>
    	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
 <style>
+:global {
+  @import 'bootstrap-3.3.6-dist/css/bootstrap.css';
+
+  /* override bootstrap style globally */
+  .col-lg-12,
+  .col-sm-12,
+  .col-md-12,
+  .col-xs-12, {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+} 
 video {
     width: 100%;
     height: 640px;
