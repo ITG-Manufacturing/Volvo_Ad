@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Ad </title>
+   	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<style>
+video {
+    width: 100%;
+    height: 640px;
+}
+.container {
+    width: 100%;
+    height: 640px;
+    margin-left: 30%;
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px)   {
+	.container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 0%;
+    padding:0;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.car{
+	padding-right: 0px; 
+    	padding-left: 0px; 
+}
+}	
+
+@media only screen and (max-width: 768px) and (min-width: 415px)   { 
+	.container {
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    padding:0;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.car{
+	padding-right: 0px; 
+    	padding-left: 0px; 
+}	
+} 
+
+ 
+@media only screen and (max-width: 414px) and (min-width: 0px)   {   
+	.container {
+    overflow: hidden;
+    width: 100%;
+    height: -webkit-fill-available;
+    position: relative;
+    margin-left: 0%;
+    padding:0;
+}
+video {
+    width: 100%;
+    height: 100%;
+    
+}
+.car{
+    padding: 0;
+}
+
+}	
+</style>
+  </head> 
+
+  <body> <div class="container">
+		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 car">
+		<video autoplay loop>
+  		<source src="car_video_iphoneSE_canvas4.mp4" type="video/mp4">
+  		<source src="car_video_iphoneSE_canvas4.ogg" type="video/ogg">
+  			Your browser does not support the video tag.
+	</video>
+		</div>
+	</div>
+  </body> 
+</html>
+</body>
+</html>     
