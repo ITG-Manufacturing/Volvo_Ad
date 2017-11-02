@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Ad </title>
+	<script type="text/javascript"> 
+		var elem = document.getElementById("myvideo");
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+} else if (elem.mozRequestFullScreen) {
+  elem.mozRequestFullScreen();
+} else if (elem.webkitRequestFullscreen) {
+  elem.webkitRequestFullscreen();
+}
+	</script>
+   	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head> 
+
+  <body> <div class="container">
+		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+		<video autoplay loop muted id="myvideo">
+  		<source src="car_video_iphoneSE_canvas4.mp4" type="video/mp4">
+		<source src="car_video_iphoneSE_canvas4.webm" type="video/webm">
+  		<source src="car_video_iphoneSE_canvas4.ogg" type="video/ogg">
+  			Your browser does not support the video tag.
+	</video>
+		</div>
+	</div>
+  </body> 
+</html> 
